@@ -19,7 +19,7 @@ jobs:
     steps:
       - run: |
           apt-get update
-          apt-get install -y libxtst6
+          apt-get install -y libxtst6 libnss3 libxss1 libasound2 libatk-bridge2.0-0 libgtk-3-0
 
       - checkout
 
