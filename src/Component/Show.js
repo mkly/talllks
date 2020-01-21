@@ -1,10 +1,14 @@
 import { html } from "htm/preact";
 import { css } from "emotion";
 
+const containerStyle = css`
+  padding: 21px;
+  width: 100%;
+`;
+
 const buttonStyle = css`
   padding: 25px;
   width: 100%;
-  margin: 0 21px 21px 21px;
   max-width: 420px;
   background: orange;
   border-radius: 4px;
@@ -33,9 +37,11 @@ const buttonStyle = css`
 const onClick = callback => callback;
 
 const Show = ({ showCowHello, text }) => html`
-  <button onClick=${onClick(showCowHello)} class=${buttonStyle}>
-    ${text}
-  </button>
+  <div class=${containerStyle}>
+    <button onClick=${onClick(showCowHello)} class=${buttonStyle}>
+      ${text}
+    </button>
+  </div>
 `;
 
 export default Show;
