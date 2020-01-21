@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cow Should show default cow 1`] = `
+"<div class=\\"css-1wi0k2z\\"><div class=\\"css-om2kyi\\"><pre class=\\"css-2gq9ut\\"> __________________
+&lt; Hello, CircleCI! &gt;
+ ------------------
+        \\\\   ^__^
+         \\\\  (oo)\\\\_______
+            (__)\\\\       )\\\\/\\\\
+                ||----w |
+                ||     ||</pre></div></div>"
+`;
