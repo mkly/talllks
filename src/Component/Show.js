@@ -15,17 +15,15 @@ const buttonStyle = css`
   color: white;
   font-weight: bold;
   letter-spacing: 2px;
-  text-shadow: -1px -1px 0 rgba(245, 245, 255, 0.3);
   text-transform: uppercase;
   background: #222;
+  background: linear-gradient(to top, #313131, #505050);
   &:hover,
   &:active {
     cursor: pointer;
   }
   &:active {
     box-shadow: none;
-    top: 1px;
-    left: 1px;
   }
   &:focus {
     outline: 0;

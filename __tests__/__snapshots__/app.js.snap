@@ -1,3 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App Should display App 1`] = `"<main class=\\"css-1w8y0mw\\"><button class=\\"css-1x0ekix\\">Say Hello!</button></main>"`;
+exports[`App Should display App 1`] = `"<main class=\\"css-1w8y0mw\\"><button class=\\"css-1qgzc5i\\">Say Hello!</button></main>"`;
